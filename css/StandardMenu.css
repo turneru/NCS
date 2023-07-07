@@ -1,0 +1,284 @@
+﻿#dnnMenu{
+	display: inline-block;
+	}
+	
+#dnnMenu .topLevel{
+	position:relative;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	}
+
+#dnnMenu .topLevel li {
+    float: left;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+    margin-right: 26px;
+    margin-top: 0px;
+}
+
+#dnnMenu .topLevel li:nth-of-type(1){
+	min-width: 103px;
+	}
+
+#dnnMenu .topLevel li:nth-of-type(2){
+	min-width: 116px;
+	}
+
+#dnnMenu .topLevel li:nth-of-type(3){
+	min-width: 68px;
+	}
+
+#dnnMenu .topLevel li:nth-of-type(4){
+	min-width: 256px;
+	}
+
+#dnnMenu .topLevel li:last-of-type{
+	margin-right: 0px;
+	min-width: 203px;
+	}
+
+#dnnMenu .topLevel li a{
+	display: block;
+    color: #566262;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+	text-align: center;
+    padding: 0 0 40px 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    border-bottom: 3px solid #fff;
+	}
+
+	
+#dnnMenu .topLevel li:hover a, #dnnMenu .topLevel li a:hover{
+	color:#F76922;
+	text-decoration:none;
+	font-weight: 800;
+	border-bottom: 3px solid #F76922
+	}
+
+
+/*
+li.selected a, li.selected {
+	color:#52565d !important;
+	text-decoration:none;
+}
+*/
+
+#dnnMenu .topLevel li a div{
+	display:block;
+	background:none;
+	margin:0 0px 0 0;
+	padding:0px 0px 0px 0px;
+	}
+	
+#dnnMenu .topLevel li.hover a div, #dnnMenu .topLevel li a:hover div{
+	background:none;
+	}
+
+#dnnMenu .subLevel{
+	/*display:none;*/
+	visibility: hidden;
+	opacity: 0;
+  	transition: visibility 0s, opacity 0.3s linear;
+	position:fixed;
+	left: 0;
+	width:100%;
+	margin:0;
+	padding:44px 0;
+	z-index:5000;
+	background-color:#dedede;
+	height: 340px;
+}
+
+
+#dnnMenu .topLevel li.hover .subLevel{
+	/*display:block;*/
+	visibility: visible;
+  	opacity: 1;
+	/*white-space:nowrap;*/
+	}
+	
+#dnnMenu .subLevel ul{
+	margin:0;
+	padding:0;
+	position:relative;
+	z-index:1200;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-content: flex-start;
+	height: 250px;
+	}
+	
+#dnnMenu .subLevel li {
+    float: left;
+    border-top: 0px;
+    width: 24%;
+    padding: 0px 0px 0px 0px;
+    border-bottom: none;
+    min-width: auto !important;
+    margin-right: 0;
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+
+/*======= About Us Menu ===========*/
+
+#dnnMenu .sublevel_37 > .container > ul {
+	height: 280px;
+}
+
+/*======= Events Menu ===========*/
+
+#dnnMenu .sublevel_39 > .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+#dnnMenu .sublevel_39 > .container > ul {
+	max-width: 640px;
+}
+
+#dnnMenu .sublevel_39 li {
+    width: 50%;
+}
+
+#dnnMenu .sublevel_39 .menu_img {
+	margin-right: -20px;
+}
+
+/*======= Learning Center Menu ===========*/
+
+#dnnMenu .sublevel_41 > .container {
+	display: flex;
+}
+
+#dnnMenu .sublevel_41 > .container > ul {
+	max-width: 800px;
+	width: 100%;
+}
+
+#dnnMenu .sublevel_41 > .container > .menu_img {
+	position: absolute;
+    right: 0;
+}
+
+#dnnMenu .sublevel_41 li {
+    width: 40%;
+    padding: 0px 62px 0px 0px;
+}
+
+#dnnMenu .sublevel_41 p {
+	line-height: 22px;
+	letter-spacing: .01em;
+	margin-bottom: 20px;
+	text-align: left;
+	margin-top: 10px;
+}
+
+*#dnnMenu .subLevel li{}
+
+#dnnMenu .subLevel li.item a{
+	background-image: none;
+    padding: 0px 0px 0px 0px;
+    border-bottom: none;
+    font-weight: 600;
+	}
+
+#dnnMenu .subLevel li.item a div{
+	display: block;
+    color: #566262;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    padding: 8px 5px 8px 0px;
+    text-align: left;
+    background-image: none;
+    border: 0px;
+    text-transform: uppercase;
+	}
+
+#dnnMenu .subLevel li.item a div img{margin-right:.5em;width:16px;height:16px;vertical-align:middle; background-image:none;}
+
+#dnnMenu .subLevel li.item a div span{background-image:none;    white-space: normal;}
+
+#dnnMenu .subLevel li.item a:hover div{
+	color:#F76922;
+	font-weight: 800;
+	border-bottom: none;
+}
+
+#dnnMenu .subLevel li.item a:hover div:after {
+	content: "\f178";
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+	margin-left: 24px;
+	color: #F76922;
+}
+
+#dnnMenu .subLevelRight{
+	display:block;
+	width:100%;
+	margin:0 0 0 0px;
+}
+
+#dnnMenu .subLevelRight.subLevelRight101 {
+    display: none;
+}
+
+#dnnMenu .subLevelRight ul{
+	display:block;
+	height: 100%;
+}
+
+#dnnMenu .subLevelRight ul li:first-of-type {
+	margin-left: 0;
+}
+
+
+#dnnMenu .subLevelRight ul li, #dnnMenu .subLevelRight ul li:hover{
+	position:relative;
+	float: left;
+	width: 100%;
+	padding: 0;
+	min-height: auto;
+	margin-bottom: 0;
+}
+
+#dnnMenu .subLevelRight ul li a, #dnnMenu .subLevelRight ul li a div{
+	display:block;
+	text-transform: none !important;
+    font-weight: 400 !important;
+	letter-spacing: .02em !important;
+}
+
+#dnnMenu .subLevelRight ul li a:hover, #dnnMenu .subLevelRight ul li a:hover div{
+	display:block;
+	color:#F76922 !important;
+	font-weight: 800 !important;
+}
+
+@media only screen and (max-width: 1175px) {
+	
+	#dnnMenu .topLevel li:nth-of-type(1), #dnnMenu .topLevel li:nth-of-type(2), #dnnMenu .topLevel li:nth-of-type(3), #dnnMenu .topLevel li:nth-of-type(4), #dnnMenu .topLevel li:last-of-type {
+		min-width: inherit;
+	}
+	
+	#dnnMenu .topLevel li a {
+		font-size: 15px;
+	}
+	
+	#dnnMenu .topLevel li {
+		margin-right: 15px;
+	}
+	
+	#dnnMenu .subLevel{
+		padding:44px 10px;
+	}
+}
